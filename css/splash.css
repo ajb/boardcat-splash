@@ -40,17 +40,27 @@ h1 {
 
 .iphone-wrap {
   padding: 1rem 0;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .iphone-wrap img {
-  max-width: 369px;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 p > strong {
   font-weight: 800;
 }
+
+@media (min-width: 450px) {
+  .iphone-wrap img {
+    max-width: 250px;
+  }
+}
+
 
 @media (min-width: 850px) {
   .container {
