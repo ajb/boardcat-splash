@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #EDF2F7;
+  color: #4A5568;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+  height: 96px;
+  width: 96px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.beta-wrap {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.beta-wrap > a {
+  background: #4A5568;
+  color: #EDF2F7;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+}
+
+.beta-wrap > a:hover {
+  background: #2D3748;
+}
+
+.iphone-wrap {
+  padding: 1rem 0;
+}
+
+.iphone-wrap img {
+  max-width: 369px;
+  margin: 0 auto;
+  display: block;
+}
+
+p > strong {
+  font-weight: 800;
+}
+
+@media (min-width: 850px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .iphone-wrap {
+    float: right;
+    padding-left: 2rem;
+    padding-top: 0;
+  }
+
+  .iphone-wrap img {
+    max-width: 300px;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
